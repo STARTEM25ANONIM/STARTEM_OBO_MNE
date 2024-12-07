@@ -1,0 +1,176 @@
+.container {
+max-width: 1110px;
+margin: 0 auto;
+}
+
+.header {
+    background: rgb(44, 44, 44);
+}
+
+.container_header {
+    display: flex;
+    padding: 27px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero {
+    background-color: #2c2c2c;
+}
+
+.hero__title {
+    color: rgb(228, 228, 228);
+font-family: Andika;
+font-size: 64px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hero__text {
+    color: rgb(228, 228, 228);
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.hero__btn {
+    border-radius: 6px;
+
+padding: 20px;
+
+box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+/* orange */
+background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+.nav__item {
+    margin-right: 15px;
+}
+
+.Logo {
+    width: 50px;
+}
+
+
+.container_hero {
+    display: flex;
+    background: #2c2c2c;
+}
+
+.skill__fill_3 {
+    width: 50px;
+    height: 10px;
+    background-color: #000000fb;
+}
+
+.skill__full {
+    width: 300px;
+    height: 10px;
+    background-color: #00C4F0;
+}
+
+.skill__fill_2 {
+    width: 100px;
+    height: 10px;
+    background-color: #000000fb;
+}
+
+.about__list {
+    list-style: none;
+}
+
+.about {
+    background-color: #2c2c2c;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__title {
+    text-align: center;
+    margin: 0px;
+}
+
+.video_video {
+width: 100%;
+height: 561.25px;
+border: 50px solid grey;
+border-radius: 29px;
+}
+
+.container_video {
+    padding: 80px 0 100px;
+}
+
+.container_video h2 {
+    text-align: center;
+    color: rgb(228, 228, 228);
+font-family: Holy Union;
+font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0%;
+}
+
+.video {
+    background-color: #2c2c2c;
+}
+
+.gallery {
+    background-color: #2C2C2C;
+}
+
+.gallery__img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+  }
+
+.gallery__text {
+    text-align: center;
+    margin: 0px;
+}
+
+.gallery__item {
+width: 48%;
+}
+
+.gallery__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Отступ между картинками */
+    margin: 0px;
+}
+
+.Telegram {
+overflow: auto; /* Prevents image from overflowing container */
+}
+
+.Telegram img {
+    float: right;
+    margin-left: 20px; /* Add some space between image and text */
+  }
+
+  footer {
+    background-color: #2C2C2C;
+  }
+
+.Startem {
+    margin: 0px;
+}
+
