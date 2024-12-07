@@ -59,6 +59,7 @@ background: linear-gradient(135.00deg, rgb(226, 163, 0),rgb(226, 149, 0) 100%);
 
 .Logo {
     width: 50px;
+    border-radius: 7px;
 }
 
 
